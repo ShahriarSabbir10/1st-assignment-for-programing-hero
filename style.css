@@ -1,0 +1,18 @@
+.navbar{display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 70px;
+}
+.nav-items{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.button{
+    background-color:#2F61F3 ;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
