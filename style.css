@@ -1,13 +1,14 @@
 *{font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    max-width: auto;
 
 }
 
 body{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: auto;
+    margin: 0 10px;
+    padding: 0 ;
 }
 
 .navbar{display: flex;
@@ -19,12 +20,16 @@ padding: 20px 70px;
     display: flex;
     gap: 35px;
     list-style: none;
-    font-size: medium;
-    
+    font-size: medium;   
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #6b7280;
 }
 
 .nav-items li{
     color: #6b7280;
+    
     
 }
 .button{
@@ -65,7 +70,7 @@ padding: 20px 70px;
 }
   
 
-/* speaker sectin */
+/* speaker sectoin */
 
 .speakers{
     padding: 100px 0;
@@ -237,5 +242,99 @@ margin-bottom: 2rem;
     border-color: #010308;
     cursor: pointer;
 }
+/* CSS  for gallery  */
+
+.gallery-parent {
+    margin: 25px 0 ;
+    text-align: center;
+    
+}
+.gallery h2{
+    text-align: center;
+    padding: 35px;
+}
+.gallery-grid{
+    margin-top: 25px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,180px);
+    justify-content: center ;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
 
 
+    
+
+
+}
+.gallery-grid img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow:3px 6px 6px #2262ed;
+
+    
+}
+.img-1{
+
+    grid-area: one;
+}
+.img-2{
+    grid-area: two;
+    
+}
+.img-3{
+    grid-area: three;
+    
+}
+.img-4{ grid-area: four;
+    
+}
+.img-5{ grid-area: five;
+    
+}
+.img-6{ grid-area: six;
+    
+}
+.conf-text{
+    color: #2262ed;
+    text-shadow: 3px 3px 1px  #88a7ea;
+    letter-spacing: 5px;
+}
+
+/* footer of CSS */
+.footer-sec{
+    background-color: rgba(173, 179, 202, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+.btn-price2{
+    background-color: #3C61E2;
+    
+    margin: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none ;
+    color: white;
+    width: 90px;
+    cursor: pointer;
+}
+
+footer form input, textarea {
+    border: none;
+    background: white;
+    padding: 5px 8px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}

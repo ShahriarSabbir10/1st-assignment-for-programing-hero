@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> dev conf </title>
     <link rel="stylesheet" href="./style.css">
+    <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<!-- fontawesome icon link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,11 +23,11 @@
             </div>
 
             <ul class="nav-items">
-                <li>Speakers</li>
-                <li>Schedule</li>
-                <li>Tracks</li>
-                <li>Vanue</li>
-                <li>Blog</li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="tracks.html">Tracks</a></li>
+                <li><a href="vanue.html">Vanue</a></li>
+                <li><a href="blog.html">Blog</a></li>
 
             </ul>
 
@@ -80,6 +83,7 @@
 
                         </span>
                         <h3>Demis Hassabis</h3>
+                    
                         <p>
                             Co-Founder and CEO, Google DEepMind
                         </p>
@@ -187,13 +191,69 @@
 
         </section>
 
-        <!-- FAQ SECTION (challange section)  -->
+        <!-- gallery (challange section)  -->
+         <section class="gallery-parent container">
+            <div >
+                <h2 style="font-size: 40px;"> Our Previous <span class="conf-text">CONF</span> Moments</h2>
+            </div>
+                <br>
+           
+            <div class="gallery-grid">
+                <div class="img-1" >
+                    <img src="./images/gallery/Screenshot 2026-07-22 124447.png" alt="">
+                </div>
+                 <div class="img-2">
+                    <img src="./images/gallery/Screenshot 2026-07-22 124541.png" alt="">
+                </div>
+                 <div class="img-3" >
+                    <img src="./images/gallery/Screenshot 2026-07-22 124556.png" alt="">
+                </div>
+                 <div class="img-4">
+                    <img src="./images/gallery/Screenshot 2026-07-22 124606.png" alt="">
+                </div>
+                 <div class="img-5">
+                    <img src="./images/gallery/Screenshot 2026-07-22 124622.png" alt="">
+                </div> 
+                <div class="img-6">
+                    <img src="./images/gallery/Screenshot 2026-07-22 124744.png" alt="">
+                </div>
+
+            </div>
 
 
-       
+         </section>
+         
 
     </main>
     <footer>
+        <section class="footer-sec">
+            <div>
+                <img src="./images/logo-mini.png" alt="">
+            </div>
+            <div>
+               <h5>Follow us on social media</h5> 
+               <div class="follow-div">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+               </div>
+            </div>
+
+            <div class="contact-div">
+                <form >
+                    <h5>Contact Us</h5>
+                    <input type="text" placeholder="Name:">
+                    <input type="email" placeholder="Your Email:">
+                    <textarea rows="3" cols="23" >Type your Message Here</textarea>
+                    <button class="btn-price2">
+                        Submit
+                    </button>
+                </form>
+
+            </div>
+         </section>
 
     </footer>
 
